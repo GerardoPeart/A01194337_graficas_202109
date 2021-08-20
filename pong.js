@@ -30,7 +30,7 @@ function main()
 
     let barraIzq = new bar(20, 50, 20, 50, 'red', 'q', 'a', 0, canvas.height);
     let barraDer = new bar(460, 100, 20, 50, 'red', 'o', 'l', 0, canvas.height);
-    let bola = new ball(canvas.width/2, canvas.height/2, 15, 'blue')
+    let bola = new ball(canvas.width/2, canvas.height/2, 15, 'blue',2,2,0,canvas.height,canvas.width);
 
     update(barraIzq, barraDer, bola);
 }
